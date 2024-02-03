@@ -983,7 +983,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cce12cd0a1881046b836c7a3e8c2fd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  circle: {fileID: 0}
+  image: {fileID: 0}
+  idle: {fileID: 0}
+  target: {fileID: 0}
   speed: 500
+  lerpedColor:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  targetPos: {x: 0, y: -385, z: 0}
 --- !u!114 &2105175524
 MonoBehaviour:
   m_ObjectHideFlags: 0
