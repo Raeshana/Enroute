@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Idle : MonoBehaviour
 {
@@ -12,11 +13,18 @@ public class Idle : MonoBehaviour
 
     // starting value for the Lerp
     static float t = 0.0f;
-    [SerializeField] float i = 1f;  
+    [SerializeField] float i = 1f;
+
+    // image and colours
+    private Image image;
+    private float lerpedAlpha = 0f;
+    private Color lerpedColor;
 
     void Start()
     {
         circle = GetComponent<RectTransform>();
+        image = GetComponent<Image>();
+        lerpedColor = image.color;
     }
 
     void Update()
@@ -37,5 +45,10 @@ public class Idle : MonoBehaviour
             minimum = temp;
             t = 0.0f;
         }
+
+        // colour change
+        lerpedAlpha = Mathf.Lerp(0.7f, 1f, Mathf.PingPong(Time.time, 1));
+        lerpedColor.a = lerpedAlpha;
+        image.color = lerpedColor;
     }
 }

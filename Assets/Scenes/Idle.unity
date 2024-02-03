@@ -478,14 +478,14 @@ PrefabInstance:
     - target: {fileID: 4981214219316799782, guid: d5d2b422498d2c947822fe51e76517d7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2105175525}
+      objectReference: {fileID: 1751364027}
     - target: {fileID: 4981214219316799782, guid: d5d2b422498d2c947822fe51e76517d7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: transition
+      value: Next
       objectReference: {fileID: 0}
     - target: {fileID: 4981214219316799782, guid: d5d2b422498d2c947822fe51e76517d7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Transition, Assembly-CSharp
+      value: SceneController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7507420818303060501, guid: d5d2b422498d2c947822fe51e76517d7, type: 3}
       propertyPath: m_text
@@ -780,6 +780,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8904118982942575808, guid: d5d2b422498d2c947822fe51e76517d7, type: 3}
   m_PrefabInstance: {fileID: 886895817}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1751364027 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5963362681187583926, guid: d5d2b422498d2c947822fe51e76517d7, type: 3}
+  m_PrefabInstance: {fileID: 886895817}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1399a9ae3abd863419e2ab77871e40d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1909412963
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -895,7 +906,6 @@ GameObject:
   - component: {fileID: 2105175521}
   - component: {fileID: 2105175523}
   - component: {fileID: 2105175524}
-  - component: {fileID: 2105175525}
   m_Layer: 5
   m_Name: Circle
   m_TagString: Untagged
@@ -989,18 +999,6 @@ MonoBehaviour:
   minimum: -30
   maximum: 30
   i: 1
---- !u!114 &2105175525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2105175519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56a03a2d1c035734c9f543d172d3a242, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
