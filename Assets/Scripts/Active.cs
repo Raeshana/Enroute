@@ -1,18 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Active : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private RectTransform circle;
+
+    // animate the game object from -1 to +1 and back
+    [SerializeField] float minimum = 500;
+    [SerializeField] float maximum = 800f;
+    
+    private float radius = 0f;
+    
     void Start()
     {
-        
+        circle = GetComponent<RectTransform>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        // animate the position of the game object...
+        radius = Mathf.Lerp(minimum, maximum, Mathf.PingPong(Time.time, 1));
+        circle.sizeDelta = new Vector2(radius, radius);
     }
 }
