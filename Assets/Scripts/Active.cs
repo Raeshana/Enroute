@@ -10,6 +10,7 @@ public class Active : MonoBehaviour
     // animate the game object from -1 to +1 and back
     [SerializeField] float minimum = 500;
     [SerializeField] float maximum = 800f;
+    [SerializeField] float time = 1f;
     
     private float radius = 0f;
     
@@ -21,7 +22,7 @@ public class Active : MonoBehaviour
     void Update()
     {
         // animate the position of the game object...
-        radius = Mathf.Lerp(minimum, maximum, Mathf.PingPong(Time.time, 1));
+        radius = Mathf.Lerp(minimum, maximum, Mathf.PingPong(Time.time, time));
         circle.sizeDelta = new Vector2(radius, radius);
     }
 }
