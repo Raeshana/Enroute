@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
+
     [ContextMenu("Next")]
     public void Next()
     {
