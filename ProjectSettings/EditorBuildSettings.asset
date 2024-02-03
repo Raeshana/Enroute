@@ -23,4 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Signup.unity
     guid: 591ce7ef5924f424b819afa05aaaee88
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: ca0de2f39edbfa947aa0407eb3d9a049, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 89b65ff3c15c4d6499590ff9e8f43e93, type: 2}
