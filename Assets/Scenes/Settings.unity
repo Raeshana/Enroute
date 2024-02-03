@@ -527,10 +527,13 @@ RectTransform:
   m_Children:
   - {fileID: 1606002043}
   - {fileID: 1724015047}
+<<<<<<< HEAD
   - {fileID: 1805164540}
   - {fileID: 321623716}
   - {fileID: 469838467}
   - {fileID: 624133989}
+=======
+>>>>>>> parent of 39bbdc6 (Merge branch 'main' of https://github.com/Raeshana/SomethingWithSound)
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -647,7 +650,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150, y: 700}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 950, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1724015048
@@ -672,8 +675,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Settings
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e59f23dd48daa7245a33ee21fe418c85, type: 2}
-  m_sharedMaterial: {fileID: -6188740138425114641, guid: e59f23dd48daa7245a33ee21fe418c85, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 97e655855de533c449f809d014b3542b, type: 2}
+  m_sharedMaterial: {fileID: 3664911523154852941, guid: 97e655855de533c449f809d014b3542b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -697,8 +700,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 150
+  m_fontSizeBase: 150
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -747,6 +750,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1724015046}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 --- !u!1 &1805164539
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,6 +826,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1805164539}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of 39bbdc6 (Merge branch 'main' of https://github.com/Raeshana/SomethingWithSound)
 --- !u!1 &2060616663
 GameObject:
   m_ObjectHideFlags: 0
